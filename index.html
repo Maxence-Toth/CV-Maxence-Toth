@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet">
+    <title>CV Maxence Toth</title>
+</head>
+<body  x-data="{navOpen: false, scrolledFromTop: false}"
+x-init="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
+@scroll.window="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
+:class="{
+'overflow-hidden': navOpen,
+'overflow-scroll': !navOpen
+}"
+>
+  <header class="fixed w-full bg-zinc-400 opacity-80 flex justify-between items-center px-4 md:px-12 transition-all duration-200 h-24 ":>
+    <div class="grid grid-cols-4 navbar">
+      <div><a href="#"><img src="MEDIA/accueil.png" alt="accueil logo" class="h-12 transform origin-left transition duration-200" :class="{'scale-100': !scrolledFromTop, 'scale-75': scrolledFromTop}"/></a></div>
+      
+    </div>
+    </div>
+  </header>
+    <div class="containertitre">
+        <img class="espace" src="MEDIA/espace.jpg" alt="photo de fusée">
+        <div class="pagetitle">
+            <h2 class="text-2xl">Bonjour, je m’appelle Maxence Toth et je suis</h2>
+            <h1 class="text-4xl">Developpeur web full-stack</h1>
+        </div>
+    </div>
+    <div class="parent">
+      <div class="div1 text-4xl"> A propos </div>
+      <div class="div2">  <img class="photocv" src="MEDIA/Maxence.jpeg" alt="photo cv maxence"></div>
+      <div class="div3"> Prénom : Maxence<br>Age: 28 ans<br>Adresse: Lens(62)</div>
+      <div class="div4">Développeur web junior, je recherche un emploi après avoir 
+                        passé une formation de 6mois ainsi qu’un stage en entreprise 
+                        afin de parfaire mes connaissances. Ce stage m’a permis d’acquérir 
+                        autonomie et confiance en moi, malgré le fait que je sortais à peine 
+                        de formation. <br><br> </div>
+      <div class="div5">J’ai ainsi pu renforcer ce que j’ai appris lors de celle ci, 
+                        et étoffer mon panel de compétences. Je profite aujourd’hui
+                        du temps dont je dispose pour continuer d’apprendre de nouvelles 
+                        technologies et notamment enrichir mes connaissances en 
+                        développement mobile. <br><br> Venant d’un parcours commercial en BtoC et BtoB,
+                        je décide de me reconvertir en tant que developpeur web. 
+                        Etant curieux et touche à tout, je m’interesse également au web
+                        design et aux arts graphiques en général, ce qui me permet
+                        d’aborder le développement front-end avec sérénité, 
+                        même lorsque je ne dispose pas de maquette ou de directives 
+                        précises. <br><br> Autonome, je peux travailler seul ou en groupe. 
+                        Je sais faire preuve de force de proposition lorsque l’on m’en 
+                        donne la liberté, cherchant toujours à améliorer et optimiser 
+                        les projets au maximum pour satisfaire au mieux la demande du client. 
+                        L’optimisation du code fait partie de mes priorités <br><br> </div>
+      <div class="div66"><a href="#" class="myButton">Me contacter</a></div>
+      </div> 
+    <div class="parent2">
+        <div class="div6 text-4xl"> Compétences</div>
+
+        <div class="div9 grid grid-cols-2 gap-2">
+          <div class="m-auto backimage"> <img src="MEDIA/coffee-cup.png" alt=""></div>
+            <div class="div10 back grid grid-rows-2 grid-cols-2">
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/windows.png" alt=""></div>
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/linux.png" alt=""></div>
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/github.png"alt=""></div>
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/vscode.png" alt=""></div>
+
+            </div>
+          </div>
+
+        <div class="div7 grid grid-cols-2 gap-2">
+            <div class="front grid grid-rows-2 grid-cols-3">
+                <div class="m-auto">  <img src="MEDIA/html-5.png" alt=""></div>
+                <div class="m-auto"> <img src="MEDIA/css-3.png" alt=""> </div>
+                <div class="m-auto"> <img class="js" src="MEDIA/js.png" alt=""></div>
+                <div class="m-auto"> <img class="iconedubas bootstrap"src="MEDIA/bootstrap.png" alt=""></div>
+                <div class="m-auto"> <img class="iconedubas"src="MEDIA/tailwindcss.png" alt=""></div>
+                <div class="m-auto"> <img class="iconedubas"src="MEDIA/sass.png" alt=""></div>
+            </div>
+          <div class="m-auto"> <img class="imgfront"src="MEDIA/code.png" alt="front"></div>
+        </div>
+
+        <div class="div9 grid grid-cols-2 gap-2">
+          <div class="m-auto backimage"> <img src="MEDIA/bdd.png" alt=""></div>
+            <div class="div10 back grid grid-rows-2 grid-cols-2">
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/python.png" alt=""></div>
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/mysql.png" alt=""></div>
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/fichier-php.png" alt=""></div>
+              <div class="m-auto"> <img class="iconeback" src="MEDIA/symbole-de-recherche-seo.png" alt=""></div>
+
+            </div>
+          </div>
+          
+          <div class="div7 figma grid grid-cols-2 gap-2">
+            <div class="ux grid grid-cols-2">
+                <div class="m-auto">  <img src="MEDIA/figma.png" alt=""></div>
+                <div class="m-auto"> <img src="MEDIA/ux.png" alt=""> </div> 
+            </div>
+          <div class="m-auto"> <img class="imgfront" src="MEDIA/blueprint.png" alt=""></div>
+
+          
+    
+          
+
+
+    </div>
+
+        
+        
+        <!-- <div class="div9"> back end</div>
+        <div class="div10"> image back end</div>
+        <div class="div11"> web design</div>
+        <div class="div12"> image web design</div>
+        <div class="div13"> environnement de travail</div>
+        <div class="div14"> image environnement de travail</div> -->
+        </div> 
+
+        <footer>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#E9A9A9" fill-opacity="1" d="M0,192L18.5,192C36.9,192,74,192,111,208C147.7,224,185,256,222,224C258.5,192,295,96,332,58.7C369.2,21,406,43,443,96C480,149,517,235,554,272C590.8,309,628,299,665,282.7C701.5,267,738,245,775,208C812.3,171,849,117,886,128C923.1,139,960,213,997,213.3C1033.8,213,1071,139,1108,138.7C1144.6,139,1182,213,1218,250.7C1255.4,288,1292,288,1329,277.3C1366.2,267,1403,245,1422,234.7L1440,224L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+              </svg>
+        </footer>
+</body>
+</html>
+
+
+
+
