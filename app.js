@@ -1,4 +1,4 @@
-var aText = new Array( "Hi &#128075 I'm Maxence Toth", "", "and i'm full stack developer.",
+var aText = new Array( "Hi &#128075 I'm Maxence Toth", "", "and i'm junior full stack developer",
     )
     
     var iSpeed = 100; 
@@ -46,12 +46,12 @@ function displayscreenabout() {
     if (!document.querySelector("#information")) {
         let card = document.createElement("div")
         card.id = "information"
-        card.classList.add('max-w-xl', 'rounded','overflow-hidden', 'shadow-lg', 'm-auto', )
+        card.classList.add('rounded','overflow-hidden', 'shadow-lg', 'm-auto', )
         screen.appendChild(card)
 
         let aboutme = document.createElement("div")
         aboutme.classList.add('text-neutral-300', 'm-8')
-        aboutme.text = "Actuellement en formation en tant que développeur web et mobile, je suis à la recherche d’une première expérience professionnelle dans ce milieu. </br> En effet, j'ai décidé il y a 2 ans de commencer une reconversion professionnelle. Cela faisait 10 ans que j’étais dans le commerce, un peu rentré dans ce monde par hasard.</br>Aujourd’hui je suis sur le point de terminer ma formation et ainsi avoir mon titre BAC +2 en tant que développeur web et mobile. De nature autonome, curieux et motivé j’adore relever des défis et j’espère que vous en aurez pour moi &#128521."
+        aboutme.text = 
         card.appendChild(aboutme).innerHTML = aboutme.text
 
         setTimeout(() => {
