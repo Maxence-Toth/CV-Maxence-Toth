@@ -49,11 +49,6 @@ function displayscreenabout() {
         card.classList.add('rounded','overflow-hidden', 'shadow-lg', 'm-auto', )
         screen.appendChild(card)
 
-        let aboutme = document.createElement("div")
-        aboutme.classList.add('text-neutral-300', 'm-8')
-        aboutme.text = 
-        card.appendChild(aboutme).innerHTML = aboutme.text
-
         setTimeout(() => {
             card.scrollIntoView({
                 behavior: "smooth"
