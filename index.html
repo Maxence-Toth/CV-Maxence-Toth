@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,10 +14,10 @@
     <!--vous qui arpentez ce CV en ligne si vous voyez ça ceci, je sais bien faire le café, genre vraiment bien ! ... à bon entendeur-->
 
     <div id="header" class="grid grid-cols-2 lg:grid-cols-10 ">
-        <div id="typedtext" class="m-10 text-2xl lg:text-6xl lg:col-span-3">
+        <div id="typedtext" class="m-10 text-xl lg:text-6xl lg:col-span-3">
 
         </div>
-        <img class="w-48 h-48 my-10 rounded-md lg:w-[calc(22rem)] lg:h-[calc(22rem)] lg:rounded-full lg:grid grid-rows-3 lg:grid-flow-col gap-4 lg:col-start-6 lg:col-span-3 " src="media/Maxence.jpeg" alt="Photo de Maxence Toth">
+        <img class="hidden lg:block w-48 h-48 my-10 rounded-md lg:w-[calc(22rem)] lg:h-[calc(22rem)] lg:rounded-full lg:grid grid-rows-3 lg:grid-flow-col gap-4 lg:col-start-6 lg:col-span-3 " src="media/Maxence.jpeg" alt="Photo de Maxence Toth">
         <div id="social" class="hidden lg:block lg:col-span-1 lg:col-start-10 grid grid-cols-1 ">
             <div>
                     <a target="_blank" href="https://github.com/Moseus"><img class="icone lg:p-1" src="media/github blanc.png" alt="png git"></a>
@@ -24,8 +25,20 @@
                     <a target="_blank" href="media/CV_dev_web.pdf"><img src="media/hireme.png" class="icone" alt="hiring me"></a>
             </div>
         </div>
+        <div class="grid grid-cols-1 lg:hidden">
+            <img class="w-48 h-48 my-10 rounded-md"src="media/Maxence.jpeg" alt="">
+            <div class="flex flex-wrap ico">
+                <a target="_blank" href="https://github.com/Moseus"><img class="iconemob" src="media/github blanc.png" alt="png git"></a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/maxence-toth/"><img src="media/linkedin.png" alt="logo linkedin" class="iconemob"></a>
+    
+                <a target="_blank" href="media/CV_dev_web.pdf"><img src="media/hireme.png" class="iconemob" alt="hiring me"></a>
+            </div>
+
+            
+        </div>
     </div> 
-    <div class="flex justify-between mx-4 lg:justify-center ">
+    <div class="flex justify-between mx-4 lg:justify-center pt-6 ">
                 <button class="m-auto text-center block border border-neutral-300 rounded py-2 px-4 text-white navbar lg:mx-4" onclick="displayscreenabout()">A propos de moi</button>
 
     </div>

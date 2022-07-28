@@ -36,3 +36,12 @@ body {
     background-color: #36286c;
     width: 100%;
 }
+
+.iconemob {
+    max-width: 50;
+}
+
+.ico {
+    margin: auto;
+    padding-bottom: 5px;
+}
