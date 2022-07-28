@@ -51,7 +51,9 @@ function displayscreenabout() {
 
         setTimeout(() => {
             card.scrollIntoView({
-                behavior: "smooth"
+                behavior: "smooth",
+                block: "center"
+
             },)
         }) 
     } 
