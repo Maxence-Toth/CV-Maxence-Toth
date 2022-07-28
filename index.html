@@ -9,8 +9,8 @@
     <script src="app.js" defer ></script>
     <title>CV Toth Maxence</title>
 </head>
-<body>
-    <!--vous qui arpentez ce CV en ligne si vous voyez ça ceci, je sais bien faire le café, genre vraiment bien !-->
+<body class="h-full flex flex-col">
+    <!--vous qui arpentez ce CV en ligne si vous voyez ça ceci, je sais bien faire le café, genre vraiment bien ! ... à bon entendeur-->
 
     <div id="header" class="grid grid-cols-2 lg:grid-cols-10 ">
         <div id="typedtext" class="m-10 text-2xl lg:text-6xl lg:col-span-3">
@@ -25,44 +25,46 @@
         </div>
     </div> 
     <div class="flex justify-between mx-4 lg:justify-center ">
-                <button class="text-center block border border-neutral-300 rounded py-2 px-4 text-white navbar lg:mx-4" onclick="displayscreenabout()">A propos de moi</button>
+                <button class="m-auto text-center block border border-neutral-300 rounded py-2 px-4 text-white navbar lg:mx-4" onclick="displayscreenabout()">A propos de moi</button>
 
     </div>
-    <div id="screen" class="pt-5 hidden  leading-6">
+    <div id="screen" class="pt-5 hidden leading-6">
             <div id="codeblock" class="rounded w-full h-full flex items-center ">
 
 
 
-
+                
 
 
                 
 
                 
-                    <div class=" mx-10 pt-10 pb-10 lg:hidden">
+                    <div class="lg:hidden">
                         <span class="text-slate-500">1.</span> <span class="text-slate-400">{</span>
                         <span class="text-slate-500"> </br> 2. &nbsp .... </span> <span class="text-red-700">name</span> <span class="text-slate-400">: "</span><span class="text-green-500">Maxence Toth</span><span class="text-slate-400">";</span>
                         <span class="text-slate-500"> </br> 3. &nbsp .... </span> <span class="text-red-700">job</span> <span class="text-slate-400">: "</span><span class="text-green-500">Junior développeur</span><span class="text-slate-400">";</span>
                         <span class="text-slate-500"> </br> 4. &nbsp .... </span> <span class="text-red-700">age</span> <span class="text-slate-400">: "</span><span class="text-green-500">28</span><span class="text-slate-400">";</span>
-                        <span class="text-slate-500"> </br> 5. &nbsp .... </br> 6. &nbsp .... </span> <span class="text-red-700">email</span> <span class="text-slate-400">: </span><span class="text-slate-400"> </br>7. &nbsp .... .... "</span><span class="text-blue-500"><a href="mailto:toth.maxence@gmail.com" itemprop="email">toth.maxence@gmail.com</a></span><span class="text-slate-400">";</span>
-                        <span class="text-slate-500"> </br> 8. &nbsp .... </span> <span class="text-red-700">localisation</span> <span class="text-slate-400">: </span><span class="text-slate-400"> </br>9. &nbsp .... if (days = samedi || dimanche){ </span> <span class="text-slate-500">
-                        </br> 10. &nbsp .... .... </span> <span class="text-fuchsia-800">return </span><span class="text-green-500">"A moto"</span><span class="text-slate-400">;</span> <span class="text-slate-500"> </br>11. &nbsp .... ....<span class="text-slate-400"> } else { </span></br> </span><span class="text-slate-400"></span>
-                        <span class="text-slate-500" >12. &nbsp .... .... </span><span class="text-fuchsia-800">return </span><span class="text-green-500">"40 rue du chemin <span class="text-slate-500"> </br> 13. &nbsp .... .... </span>vert, 62300 Lens"</span></span><span class="text-slate-400">;</span>
-                        <span class="text-slate-500" > </br> 14. &nbsp .... .... <span class="text-slate-400">};</span>
-                        <span class="text-slate-500"> </br> 12. &nbsp .... </br> </span> 
-                        
-                        
-                        <span class="lg:hidden">
-                            <span class="text-slate-500">13. &nbsp .... </span> <span class="text-red-700">description</span>
-        
-                        
-                        
-                            <span class="text-slate-400">:"</span> <span class="text-orange-500">Actuellement en formation en tant que développeur web et mobile,<span class="text-slate-500"> </br> 14. &nbsp .... .... .... ....</span>
-                            je suis à la recherche d’une première expérience professionnelle dans ce milieu. </br>
-                            <span class="text-slate-500"> 15. &nbsp .... .... .... ....</span> En effet, j'ai décidé il y a 2 ans de commencer une reconversion professionnelle. </br><span class="text-slate-500"> 16. &nbsp .... .... .... .... </span>Cela faisait 10 ans que j’étais dans le commerce, un peu rentré dans ce monde par hasard. </br><span class="text-slate-500"> 17. &nbsp .... .... .... .... </span>
-                            Aujourd’hui je suis sur le point de terminer ma formation et ainsi avoir mon titre </br><span class="text-slate-500">18. &nbsp .... .... .... .... </span> BAC +2 en tant que développeur web et mobile. De nature autonome, curieux et motivé </br><span class="text-slate-500">19. &nbsp .... .... .... .... </span> j’adore relever des défis et j’espère que vous en aurez pour moi 😉.</span><span class="text-splate-400">";</span>
-        
-                        </span>
+                        <span class="text-slate-500"> </br> 5. &nbsp .... </br> 6. &nbsp .... </span> <span class="text-red-700">email</span> <span class="text-slate-400">: "</span><span class="text-blue-500"><a href="mailto:toth.maxence@gmail.com" itemprop="email">toth.maxence@gmail.com</a></span><span class="text-slate-400">";</span>
+                        <span class="text-slate-500"> </br> 7. &nbsp .... </span> <span class="text-red-700">localisation</span> <span class="text-slate-400">: </span><span class="text-slate-400"> </br> <span class="text-slate-500">8. &nbsp .... </span> if ( days = samedi ||dimanche){ </span> <span class="text-slate-500">
+                        </br> 9. &nbsp .... .... .... </span> <span class="text-fuchsia-800">return </span><span class="text-green-500">"A moto"</span><span class="text-slate-400">;</span> <span class="text-slate-500"> </br>10. &nbsp .... .... ....<span class="text-slate-400"> } else { </span></br> </span><span class="text-slate-400"></span>
+                        <span class="text-slate-500" >11. &nbsp .... .... .... </span><span class="text-fuchsia-800">return </span><span class="text-green-500">"40 rue du chemin <span class="text-slate-500">12. &nbsp .... .... .... </span>vert, 62300 Lens"</span></span><span class="text-slate-400">;</span> </br> 
+                        <span class="text-slate-500"> <span class="text-slate-500">13. &nbsp ....</br>14. &nbsp .... </span><span class="text-red-700">description</span>
+                        <span class="text-slate-400">:"</span> <span class="text-orange-500">Actuellement en </br> <span class="text-slate-500">15. &nbsp ....  </span>formation en tant que développeur </br> <span class="text-slate-500">16. &nbsp ....  </span>web et mobile, en effet, j'ai <span class="text-slate-500"> </br> 17. &nbsp ....</span> décidé il y a 2 ans de commencer <span class="text-slate-500"> 18. &nbsp .... </span>une reconversion professionnelle. 
+                        <span class="text-slate-500"> 19. &nbsp .... </span>Cela faisait 10 ans que j’étais </br> <span class="text-slate-500"> 20. &nbsp .... </span> dans le commerce, un peu rentré </br> <span class="text-slate-500"> 21. &nbsp .... </span>dans ce monde par hasard. </br><span class="text-slate-500"> 22. &nbsp .... </span>
+                        Aujourd’hui je suis sur le point de </br><span class="text-slate-500"> 23. &nbsp .... </span>terminer ma formation et </br><span class="text-slate-500"> 24. &nbsp .... </span>ainsi avoir mon titre BAC+2 </br><span class="text-slate-500">25. &nbsp ....</span> en tant que développeur web et </br><span class="text-slate-500"> 26. &nbsp .... </span>mobile. </br><span class="text-slate-500"> 27. &nbsp .... </span>De nature autonome, curieux et </br><span class="text-slate-500"> 28. &nbsp .... </span>motivé j’adore relever des défis</br><span class="text-slate-500"> 29. &nbsp .... <span class="text-orange-500">et j’espère que vous en aurez pour <span class="text-slate-500"> 30. &nbsp .... </span>moi 😉.</span><span class="text-splate-400">";</span> </br>
+                        <span class="text-slate-500">31. &nbsp ....</span> </br>
+                        <span class="text-slate-500">32. &nbsp ....</span> <span class="text-red-700">Skills</span><span class="text-slate-400">: ["</span><span class="text-green-500">HTML</span><span class="text-slate-400">", "</span><span class="text-green-500">CSS <span class="text-slate-500">  </br>33.  &nbsp .... </span>[Tailwind,Bootstrap,SASS]</span><span class="text-slate-400">", <span class="text-slate-500">  </br>34.  &nbsp .... </span>"</span><span class="text-green-500">Javascript [VUE]</span><span class="text-slate-400">", "</span><span class="text-green-500">Python</span><span class="text-slate-400">", <span class="text-slate-500">  </br>35.  &nbsp .... </span>"</span><span class="text-green-500">PHP[Symfony]</span><span class="text-slate-400">", "</span><span class="text-green-500">MySql</span><span class="text-slate-400">"];</span> </br> <span class="text-slate-500">36. &nbsp ....</span>
+                        <span class="text-slate-500"></br> 37. &nbsp .... </span><span class="text-red-700">Link</span><span class="text-slate-400">: ["</span><span class="text-blue-500"><a target="_blank" href="https://www.linkedin.com/in/maxence-toth/">Linkedin</a></span><span class="text-slate-400">","</span><span class="text-blue-500"> <a target="_blank" href="https://github.com/Moseus">Github</a></span><span class="text-slate-400">", <span class="text-slate-500"> </br>38. &nbsp .... ....</span> "<span class="text-blue-500"><a target="_blank" href="media/CV_dev_web.pdf">MON CV</a></span><span class="text-slate-400">"];</span>  </br>
+                        <span class="text-slate-500">39. &nbsp ....</span> </br>
+                        <span class="text-slate-500">40. &nbsp ....</span><span class="text-red-700">Formation</span><span class="text-slate-400">:"</span><span class="text-green-500">POP School promo 2022 || <span class="text-slate-500">41. &nbsp ....</span> Diplome de niveau III Développeur <span class="text-slate-500">42. &nbsp .... </span>Web & Mobile</span><span class="text-slate-400">";</span>
+                        <span class="text-slate-500"> </br> 43. &nbsp </span> <span class="text-slate-400">}</span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     </div>  
 
 
@@ -77,44 +79,40 @@
 
 
 
-                <div class=" mx-10 pt-10 pb-10 hidden lg:block">
-                <span class="text-slate-500">1.</span> <span class="text-slate-400">{</span>
-                <span class="text-slate-500"> </br> 2. &nbsp .... </span> <span class="text-red-700">name</span> <span class="text-slate-400">: "</span><span class="text-green-500">Maxence Toth</span><span class="text-slate-400">";</span>
-                <span class="text-slate-500"> </br> 3. &nbsp .... </span> <span class="text-red-700">job</span> <span class="text-slate-400">: "</span><span class="text-green-500">Junior développeur</span><span class="text-slate-400">";</span>
-                <span class="text-slate-500"> </br> 4. &nbsp .... </span> <span class="text-red-700">age</span> <span class="text-slate-400">: "</span><span class="text-green-500">28</span><span class="text-slate-400">";</span>
-                <span class="text-slate-500"> </br> 5. &nbsp .... </br> 6. &nbsp .... </span> <span class="text-red-700">email</span> <span class="text-slate-400">: "</span><span class="text-blue-500"><a href="mailto:toth.maxence@gmail.com" itemprop="email">toth.maxence@gmail.com</a></span><span class="text-slate-400">";</span>
-                <span class="text-slate-500"> </br> 7. &nbsp .... </span> <span class="text-red-700">localisation</span> <span class="text-slate-400">: </span><span class="text-slate-400">if ( days = samedi || dimanche){ </span> <span class="text-slate-500">
-                </br> 8. &nbsp .... .... .... .... .... </span> <span class="text-fuchsia-800">return </span><span class="text-green-500">"A moto"</span><span class="text-slate-400">;</span> <span class="text-slate-500"> </br>9. &nbsp .... .... .... .... ....<span class="text-slate-400"> } else { </span></br> </span><span class="text-slate-400"></span>
-                <span class="text-slate-500" >10. &nbsp .... .... .... .... .... </span><span class="text-fuchsia-800">return </span><span class="text-green-500">"40 rue du chemin vert, 62300 Lens"</span></span><span class="text-slate-400">;</span>
-                <span class="text-slate-500" > </br> 11. &nbsp .... .... .... .... ....<span class="text-slate-400">};</span>
-                <span class="text-slate-500"> </br> 12. &nbsp .... </br> </span> 
-                
-                
-                
+                    <div class=" mx-10 pt-10 pb-10 hidden lg:block">
+                    <span class="text-slate-500">1.</span> <span class="text-slate-400">{</span>
+                    <span class="text-slate-500"> </br> 2. &nbsp .... </span> <span class="text-red-700">name</span> <span class="text-slate-400">: "</span><span class="text-green-500">Maxence Toth</span><span class="text-slate-400">";</span>
+                    <span class="text-slate-500"> </br> 3. &nbsp .... </span> <span class="text-red-700">job</span> <span class="text-slate-400">: "</span><span class="text-green-500">Junior développeur</span><span class="text-slate-400">";</span>
+                    <span class="text-slate-500"> </br> 4. &nbsp .... </span> <span class="text-red-700">age</span> <span class="text-slate-400">: "</span><span class="text-green-500">28</span><span class="text-slate-400">";</span>
+                    <span class="text-slate-500"> </br> 5. &nbsp .... </br> 6. &nbsp .... </span> <span class="text-red-700">email</span> <span class="text-slate-400">: "</span><span class="text-blue-500"><a href="mailto:toth.maxence@gmail.com" itemprop="email">toth.maxence@gmail.com</a></span><span class="text-slate-400">";</span>
+                    <span class="text-slate-500"> </br> 7. &nbsp .... </span> <span class="text-red-700">localisation</span> <span class="text-slate-400">: </span><span class="text-slate-400">if ( days = samedi || dimanche){ </span> <span class="text-slate-500">
+                    </br> 8. &nbsp .... .... .... .... .... </span> <span class="text-fuchsia-800">return </span><span class="text-green-500">"A moto"</span><span class="text-slate-400">;</span> <span class="text-slate-500"> </br>9. &nbsp .... .... .... .... ....<span class="text-slate-400"> } else { </span></br> </span><span class="text-slate-400"></span>
+                    <span class="text-slate-500" >10. &nbsp .... .... .... .... .... </span><span class="text-fuchsia-800">return </span><span class="text-green-500">"40 rue du chemin vert, 62300 Lens"</span></span><span class="text-slate-400">;</span>
+                    <span class="text-slate-500" > </br> 11. &nbsp .... .... .... .... ....<span class="text-slate-400">};</span>
+                    <span class="text-slate-500"> </br> 12. &nbsp .... </br> </span> 
+                    
+                    
+                    
                     <span class="text-slate-500">13. &nbsp .... </span> <span class="text-red-700">description</span>
-
-                
-                
                     <span class="text-slate-400">:"</span> <span class="text-orange-500">Actuellement en formation en tant que développeur web et mobile,<span class="text-slate-500"> </br> 14. &nbsp .... .... .... ....</span>
-                    je suis à la recherche d’une première expérience professionnelle dans ce milieu. </br>
-                    <span class="text-slate-500"> 15. &nbsp .... .... .... ....</span> En effet, j'ai décidé il y a 2 ans de commencer une reconversion professionnelle. </br><span class="text-slate-500"> 16. &nbsp .... .... .... .... </span>Cela faisait 10 ans que j’étais dans le commerce, un peu rentré dans ce monde par hasard. </br><span class="text-slate-500"> 17. &nbsp .... .... .... .... </span>
-                    Aujourd’hui je suis sur le point de terminer ma formation et ainsi avoir mon titre </br><span class="text-slate-500">18. &nbsp .... .... .... .... </span> BAC +2 en tant que développeur web et mobile. De nature autonome, curieux et motivé </br><span class="text-slate-500">19. &nbsp .... .... .... .... </span> j’adore relever des défis et j’espère que vous en aurez pour moi 😉.</span><span class="text-splate-400">";</span>
+                        je suis à la recherche d’une première expérience professionnelle dans ce milieu. </br>
+                        <span class="text-slate-500"> 15. &nbsp .... .... .... ....</span> En effet, j'ai décidé il y a 2 ans de commencer une reconversion professionnelle. </br><span class="text-slate-500"> 16. &nbsp .... .... .... .... </span>Cela faisait 10 ans que j’étais dans le commerce, un peu rentré dans ce monde par hasard. </br><span class="text-slate-500"> 17. &nbsp .... .... .... .... </span>
+                        Aujourd’hui je suis sur le point de terminer ma formation et ainsi avoir mon titre </br><span class="text-slate-500">18. &nbsp .... .... .... .... </span> BAC +2 en tant que développeur web et mobile. De nature autonome, curieux et motivé </br><span class="text-slate-500">19. &nbsp .... .... .... .... </span> j’adore relever des défis et j’espère que vous en aurez pour moi 😉.</span><span class="text-splate-400">";</span>
 
-                
+                    
 
-                
                     
-                    
+                        
+                        
                     <span class="text-slate-500"> </br> 20. &nbsp ....</span>
-                <span class="text-slate-500"></br> 21. &nbsp .... </span><span class="text-red-700">Skills</span><span class="text-slate-400">: ["</span><span class="text-green-500">HTML</span><span class="text-slate-400">", "</span><span class="text-green-500">CSS [Tailwind,Bootstrap,SASS]</span><span class="text-slate-400">", "</span><span class="text-green-500">Javascript [VUEjs]</span><span class="text-slate-400">", "</span><span class="text-green-500">Python</span><span class="text-slate-400">", "</span><span class="text-green-500">PHP[Symfony]</span><span class="text-slate-400">", "</span><span class="text-green-500">MySql</span><span class="text-slate-400">"];</span>
-                <span class="text-slate-500"></br> 22. &nbsp .... </span><span class="text-red-700">Link</span><span class="text-slate-400">: ["</span><span class="text-blue-500"><a target="_blank" href="https://www.linkedin.com/in/maxence-toth/">Linkedin</a></span><span class="text-slate-400">", "</span><span class="text-blue-500"> <a target="_blank" href="https://github.com/Moseus"> Github</a></span><span class="text-slate-400">", "<span class="text-blue-500"><a target="_blank" href="media/CV_dev_web.pdf">MON CV</a></span><span class="text-slate-400">"];</span>  
-                <span class="text-slate-500"></br> 23. &nbsp .... </span><span class="text-red-700">Formation</span><span class="text-slate-400">:"</span><span class="text-green-500">POP School promo 2022 || Diplome de niveau III Développeur Web & Mobile</span><span class="text-slate-400">";</span>
-                <span class="text-slate-500"> </br> 23. &nbsp </span> <span class="text-slate-400">}</span>
+                    <span class="text-slate-500"></br> 21. &nbsp .... </span><span class="text-red-700">Skills</span><span class="text-slate-400">: ["</span><span class="text-green-500">HTML</span><span class="text-slate-400">", "</span><span class="text-green-500">CSS [Tailwind,Bootstrap,SASS]</span><span class="text-slate-400">", "</span><span class="text-green-500">Javascript [VUE]</span><span class="text-slate-400">", "</span><span class="text-green-500">Python</span><span class="text-slate-400">", "</span><span class="text-green-500">PHP[Symfony]</span><span class="text-slate-400">", "</span><span class="text-green-500">MySql</span><span class="text-slate-400">"];</span>
+                    <span class="text-slate-500"></br> 22. &nbsp .... </span><span class="text-red-700">Link</span><span class="text-slate-400">: ["</span><span class="text-blue-500"><a target="_blank" href="https://www.linkedin.com/in/maxence-toth/">Linkedin</a></span><span class="text-slate-400">", "</span><span class="text-blue-500"> <a target="_blank" href="https://github.com/Moseus"> Github</a></span><span class="text-slate-400">", "<span class="text-blue-500"><a target="_blank" href="media/CV_dev_web.pdf">MON CV</a></span><span class="text-slate-400">"];</span>  
+                    <span class="text-slate-500"></br> 23. &nbsp .... </span><span class="text-red-700">Formation</span><span class="text-slate-400">:"</span><span class="text-green-500">POP School promo 2022 || Diplome de niveau III Développeur Web & Mobile</span><span class="text-slate-400">";</span>
+                    <span class="text-slate-500"> </br> 23. &nbsp </span> <span class="text-slate-400">}</span>
             </div>
         </div>
     </div>
 
     </div>
-
 </body>
 </html

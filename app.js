@@ -1,4 +1,4 @@
-var aText = new Array( "Hi &#128075 I'm Maxence Toth", "", "and i'm junior full stack developer",
+var aText = new Array( "Hi &#128075 I'm Maxence Toth", "", "I'm junior full stack developer",
     )
     
     var iSpeed = 100; 
